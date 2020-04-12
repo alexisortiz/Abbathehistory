@@ -1,0 +1,296 @@
+/* 1170px to 980px or 768px */
+@media screen and (max-width: 1099px) {
+.banner-holder ul{
+	height: auto;
+}
+}
+
+/* 980px to 800px */
+@media screen and (max-width: 980px) {
+	#header .px-header-right {float: left;}
+	.col-md-3 {width: 33.333% !important;}
+	.col-md-4, .col-md-6 {width: 50%;} 
+	.col-md-12, .col-md-9 {width: 100%;}
+	[class*="col-md"], [class*="col-lg"] {display: inline-block; margin: 0 -4px 20px 0; vertical-align: top;}
+
+	/*Banner Style*/ 
+	.px-banner .banner-holder ul li .caption {display: none;}
+	.px-banner .banner-holder ul li .caption h2 {font-size: 30px;    line-height: 38px; margin: 0 0 20px;}
+
+	/*Index Inner Style*/
+	#main .px-biography article {width: 50%;}
+	#main .px-biography article .main-heading {padding-top: 0;}
+	#main .px-biography article figure img {width: 100%;}
+	#main .px-biography article .px-text {padding: 0 10px 0 0;}
+	#main .px-counter .px-holder article {margin: 0 -4px 0 15px;}
+	#main .px-counter .px-holder article:first-child {margin-left: 0;}
+	#main .px-counter .px-holder article h3 {font-size: 16px;}
+	.px-counter .px-holder figcaption {overflow: hidden;}
+	#main .px-counter .px-holder article span { display: block; font-size: 12px; line-height: 16px;}
+	.px-portfolio.grid article {display: inline-block; width: 50%; margin: 0 -4px 20px 0; vertical-align: top;}
+	.upcoming-event .px-event.list article {overflow: hidden;}
+	.px-team.team-grid article {width: 50%;}
+	#main .fancy-grally article {width: 33.333%;}
+	.px-twitter-sec .twitter-content {width: 100%; float: left;}
+
+	/*About Us Style*/
+	.px-about-video iframe {width: 100%;}
+	.px-gallry.simple article {margin-bottom: 20px;}
+	.px-gallry.simple figure img {width: 100%;}
+	#main .px-tabs.simple .nav-tabs li a {font-size: 12px; min-width: 160px;}
+	#main .px-counter.simple {background-size: cover; min-height: 375px;}
+	.px-team figure img, .px-gallry.classic figure img {width: 100%;}
+
+	/* Services Style */
+	#main .call-action-sec {background-size: cover;}
+	.picture-sec figure img {width: 100%;}
+	#main .site-map.banner h2, #main .px-result.banner h2, #main .px-price.banner h2 {font-size: 40px;}
+	
+	/*Event Style*/
+	#main .px-event.list .event-inner {width: 83%;}
+	#main .upcoming-event .px-event.list article {width: 100%;}
+	#main .upcoming-event .px-event.list {padding: 0 0 0 10px;}
+	#main .px-event.grid article {margin: 0 -4px 40px 0}
+
+	/* Album Style */
+	#main .px-portfolio.list .text {padding: 30px 35px 10px 32px;}
+	#main .detail-holder {width: 100%; float: left;}
+
+	/* Gallery Style */
+	#main .gallery-slider li img {width: 100%;}
+	#main .gallery-slider ul.px-thumbnail {margin-right: 0;}
+	
+	/* Blog Style */
+	#main .px-blog.large .px-media {width: 724px;}
+	#main .px-blog.large .pagingInfo {bottom: 236px;}
+	#main .px-blog.related .px-media {width: 100%;}
+
+
+	/*Footer Style*/
+	#footer .social-media ul li { width: 25% !important; margin: 0;}
+	#footer .newsletter-flied form label input[type="text"] {width: 220px;}
+	#footer .newsletter-flied form input[type="submit"] {width: 90px;}
+	.newsletter-flied span.error {display: inline-block;}
+}
+
+/* 767px to 480px */
+@media screen and (max-width: 767px) {
+	.col-md-6, .col-md-3, .col-md-4, .col-lg-4, .col-sm-4 {width: 50%!important;}
+	.col-md-8, .col-md-9 {width: 100%;}
+
+	/* Responsive Menu */
+	.js .navigation>ul {display:none;}
+	.js .slicknav_menu {display:block; background-color: #fff; border-bottom: 1px solid #f1f1f1;}
+	.slicknav_menu .slicknav_btn {float: left; margin-left: 0;}
+	.slicknav_menu .slicknav_nav {background-color: #222;}
+	.slicknav_menu .slicknav_nav a {margin: 0;}
+	.slicknav_menu .slicknav_nav a:hover {background: #f1f1f1; border-radius: 0;}
+	.slicknav_menu .slicknav_nav .slicknav_row:hover a {color: #222;}
+	.slicknav_menu .slicknav_nav a a:hover {background: none;}
+	.slicknav_menu .slicknav_nav li {border-bottom: 1px solid #555;}
+	.slicknav_menu .slicknav_nav li ul li {border: none;}
+	.slicknav_nav .slicknav_row:hover .slicknav_arrow {color: #222;}
+
+	/*Banner Style*/
+	.px-banner .banner-holder ul li .caption {display: none;}
+	.px-banner .banner-holder ul li .caption h2 {font-size: 20px; margin: 0 0 10px; line-height: 26px;}
+	.px-banner .banner-holder ul li .caption p {margin: 0 0 10px 0;}
+	
+	/*Index Inner Style*/
+	#main .px-biography article figure img {width: 100%;}
+	#main .px-counter .px-holder article {width: 30%; margin: 0 -4px 20px 22px;}
+	#main .px-counter .px-holder article:last-child a {float: left;}
+	#main .px-counter .px-holder article h3 {font-size: 20px;}
+	#main .px-portfolio.grid article { display: inline-block; float: none; margin: 0 -4px 20px 0; vertical-align: top; width: 50%;}
+	.px-event.list article {width: 100% !important; float: left;}
+	.upcoming-event .px-event.list {padding: 0 10px;}
+	#main  .px-team.team-grid article {width: 50%;}
+	#main .fancy-grally article {width: 50%;}
+	#main .px-twitter-sec .twitter-content {width: 100%; float: left; padding: 0 20px;}
+	
+	/*About Us Style*/
+	.px-about-video iframe {width: 100%;}
+	.px-gallry.simple article {margin-bottom: 20px;}
+	.px-gallry.simple figure img {width: 100%;}
+	#main .px-tabs.simple .nav-tabs li a {font-size: 12px; min-width: 170px;}
+	#main .px-counter.simple {background-size: cover; min-height: 375px;}
+	.px-team figure img, .px-gallry.classic figure img {width: 100%;}
+
+	/* Services Style */
+	#main .call-action-sec {background-size: cover;}
+	.picture-sec figure img {width: 100%;}
+
+	/* Price Package Style */
+	#main .px-price.booking {padding: 93px 10px 93px 10px;}
+	#main .px-price.px-queries .px-text {width: 75%; display: inline-block; vertical-align: middle; float: none;}
+	.contact-us {display: inline-block; vertical-align: middle;}
+	
+	/* construction Style */
+	.wrapper .px-construction .countdown-alt-2 .label,
+	.wrapper .px-construction .countdown-alt-2 .dd, .wrapper .px-construction .countdown-alt-2 .hh-1, 
+	.wrapper .px-construction .countdown-alt-2 .hh-2, .wrapper .px-construction .countdown-alt-2 .mm-1, 
+	.wrapper .px-construction .countdown-alt-2 .mm-2, 
+	.wrapper .px-construction .countdown-alt-2 .ss-1, .wrapper .px-construction .countdown-alt-2 .ss-2 {font-size: 50px;}
+	#main .px-construction .px-media figure {text-align: center; padding: 0 40px;}
+	#main .px-construction .px-media img {width: 250px; margin: 0;}
+	#main .px-construction .text {margin: 0;}
+	.px-construction .text span {font-size: 220px; padding: 0 40px;}
+	/* Team Detail Style */
+	#main .px-team .slidernav {margin-bottom: 20px;}
+	#main .px-team .sliderfor {width: 100%; float: left;}
+	
+	/* Blog Style */
+	#main .px-blog.large .description {margin: 0;}
+	#main .px-blog.large article {padding: 0 20px;}
+	#main .px-blog.related .px-media {width: 100%;}
+	#main .px-blog.large .px-media {width: 723px; height: auto;}
+	#main .px-blog.large .slick-next {right: 18px;}
+	#main .px-blog.large .pagingInfo {right: 28px;}
+	
+	/* Event Style */
+	#main .px-event.grid article {margin-bottom: 40px;}
+	#main .px-event.list .event-inner {width: 82%; text-align: left;}
+	#main .px-event.list {padding-left: 10px;}
+	#main .px-event.list .icon-box {left: -12px;}
+	
+	/* Album Style */
+	#main .px-portfolio.list .text {padding: 42px 35px 10px 32px;}
+	.px-player figure {margin: 0 0 100px;}
+	#main .detail-holder {width: 100%; float: left;}
+	
+	/* Gallery Style */
+	.gallery-slider ul.px-slider li .px-captions {display: none;}
+
+	/*Footer Style*/
+	#footer .widget {display: inline-block; margin: 0 -4px 20px 0; vertical-align: top;}
+	#footer .newsletter-flied form label input[type="text"] {width: 210px;}
+	#footer .newsletter-flied form input[type="submit"] {width: 90px;}
+	#footer .newsletter-flied span.error {display: inline-block;}
+	#footer #copyright .social-media ul li {border-bottom: 1px solid #3e3e3e;}
+}
+
+/* 480px to 320px */
+@media screen and (max-width: 480px) {
+.col-md-6, .col-md-4, .col-md-3, .col-lg-4, #footer .social-media ul li {width: 100% !important;}
+
+/*Header Element Style*/
+.px-header-element .px-fancy-heading {padding: 0 10px;}
+.px-header-element .px-fancy-heading h2 { font-size: 30px; font-weight: 700; line-height: 36px;}
+
+/*Banner Style*/
+.banner-holder ul li .caption {margin-left: -131px; padding: 10px 0 0; top: 0;}
+.px-banner .px-readmore {font-size: 12px; padding: 5px 20px 6px;}
+.banner-holder ul li .caption h2 {font-size: 20px; padding: 20px 0 0; line-height: 24px; margin: 0 0 10px;}
+.px-banner .caption p {display: none;}
+
+/*Index Inner Style*/
+#main .px-biography {margin: 0 0 20px 0;}
+#main .px-biography article .px-text {padding: 0 10px;}
+#main .px-biography article .px-text p {margin-bottom: 10px;}
+#main .px-biography article {margin: 0 -4px 20px 0;}
+#main .px-biography article figure {padding: 0 10px;}
+#main .px-biography article figure img {width: 100%;}
+#main .px-counter .px-holder article {margin: 0 -4px 20px 0; width: 100%;}
+#main .px-counter .px-holder article:last-child {width: 100%;}
+#main .px-counter .px-holder article .px-readmore {float: left;}
+#main .upcoming-event .px-event.list article {float: left;}
+#main .upcoming-event .px-event.list {padding: 0 10px;}
+#main .upcoming-event .main-heading {padding: 34px 0 0 10px;}
+#main .upcoming-event .px-event.list .text h4 {margin: 0 0 10px; font-size: 20px;}
+#main .upcoming-event .px-event.list .text ul li {margin: 0 0 10px 0;}
+#main .main-heading h2 {font-size: 30px; line-height: 32px;}
+#main .upcoming-event {padding: 30px 0;}
+#main .upcoming-event .px-event.list .event-box:before, 
+#main .upcoming-event .px-event.list .event-box:after {left: 115px;}
+#main .px-team-bg .main-heading h2 {margin: 0;}
+#main .px-band-news article .px-holder .px-info {padding: 20px 20px 0; text-align: center; }
+#main .px-band-news article .px-holder .px-info h3 {font-size: 14px; margin: 0 0 10px;}
+#main .px-band-news article .px-holder .btn-next {left: 50%; margin: 0 0 0 -25px; top: 120px;}
+#main .px-band-news article .px-holder:hover img {margin: 0; width: 100%}
+#main .px-band-news article .px-holder:hover .btn-next img {width: auto;}
+#main ul.px-partners {overflow: hidden; height: 112px;}
+#main .px-fancy-heading h2 {font-size: 30px; }
+#main .px-fancy-heading p {padding: 0;}
+#main .fancy-grally article {width: 100%;}
+.px-twitter-sec .twitter-content {float: left; padding: 0 22px; text-align: center; width: 100%;}
+.px-twitter-sec .twitter-content i {display: inline-block; float: none;}
+#main .px-counter .px-holder article figure img {margin: 0 15px 0 0;}
+#main .px-actions-inner {padding: 15px 10px 0;}
+#main .px-band-partner ul.px-partners li a {padding: 20px 0 41px;}
+
+/* FAQ Style */
+.panel-group.px-default.simple .panel-heading a{padding: 12px 45px 12px 20px;}
+#main .call-actions.modren .inner {background-size: cover; padding: 30px;}
+.call-actions.modren {text-align:center;}
+.call-actions.modren .cell {display: block; width: 100%;}
+.call-actions.modren .ac-text {display: inline-block; margin: 0 0 20px; width: 100%;}
+#main .call-actions.modren .heading h4 {font-size: 24px;}
+#main .call-actions.modren .call-btn a {display: inline-block; float: none;}
+.px-promo-box article {margin-bottom: 10px;}
+
+/* Services Style */
+.wrapper .site-map.banner h2, .wrapper .px-result.banner h2, .wrapper .px-price.banner h2 {font-size: 30px; line-height: 36px; margin: 0 0 10px 23px;}
+.wrapper .site-map.banner h2:before, .px-result.banner h2:before, 
+.wrapper .px-price.banner h2:before, .px-error .content h2:before {top: -50px;}
+
+/* Price Package Style */
+	#main .px-price.booking {padding: 50px 10px 10px;}
+	#main .px-result.suggestion {padding: 0 10px;}
+	#main .px-result.blog .description {width: 100%; float: left;}
+	#main .px-result.blog .description .posted li a {display: inline-block; }
+	#main .px-blog h3:after {top: 8px;}
+
+	/* Price Package Style */
+	#main .px-error .content h2 {font-size: 60px;}
+	
+	/* Blog Style */
+	#main .px-band-news article .px-holder img {height: 220px;}
+	#main .px-band-news article .px-holder .btn-next img {height: auto;}
+	#main .px-blog.detail .post-option .content {float: none;}
+	#main .description .info .read-more {float: left;}
+	#main .px-blog.share .socail_media {margin-top: -5px;}
+	#main .px-blog.share li {padding: 9px;}
+	#main .px-blog.comments .childern .thumblist .text {padding: 19px 20px 29px 50px;}
+	#main .px-blog.large .px-media {width: 335px; height: auto;}
+	#main .px-blog.large .slick-prev, #main .px-blog.large .slick-next {top: 60px;}
+	.px-blog.large {margin: 0 0 0 -6px;}
+	#main .px-blog.large .slick-next {right: 7px;}
+	#main .px-blog.large .text .post-option h5 {line-height: 30px;}
+	#main .px-blog .share-blog {margin-bottom: 15px; padding-bottom: 5px;}
+	
+	/* Event Style */
+	#main .px-event.list .event-inner {width: 100%; border-top: 2px dashed #e9e9e9; border-left: none; text-align: center;}
+	#main .px-event.list .event-date {width: 100%; padding: 30px 0;}
+	.px-event.list .event-inner .text {padding: 20px 0 30px; width: 100%; float: left;}
+	#main .px-event.list .event-inner figure {display: inline-block; float: none;}
+	#main .px-event.list .text ul li i {float: none;}
+	#main .px-event.list .text ul li p {display: inline-block; padding: 0 0 0 10px;}
+	#main .px-event.list .text .ticket-btn, #main .booked-btn, .cancel-btn {margin: 0 -50px 0 0; right: 50%; bottom: 20px;}
+	.px-event.list .event-box:before, .px-event.list .event-box:after, .px-event.list:before {display: none;}
+	#main .px-event.list {padding: 0;}
+	#main .px-event.list .icon-box {display: none;}
+	#main .px-tabs.simple .nav-tabs li {width: 100%; margin: 0 0 8px;}
+	#main .px-tabs.simple .nav-tabs li a {width: 100%;}
+	
+
+	/* Event Style */
+	#main .px-map-sec {display: inline-block; padding: 0 15px 0 0; width: 100%;}
+	
+	/* Album Style */
+	#main .px-main-filter li {display: inline-block; margin: 0 0 5px;}
+	#main .px-portfolio.list figure {width: 100%;}
+	
+	/* Contect Style */
+	#main .px-form.plain label {width: 100%;}
+
+	/* 404 Style */	
+	#main .px-error .content h2:before {top: -70px;}
+
+/*Footer Style*/
+#footer .newsletter-flied form label input[type="text"] {width: 210px;}
+#footer .newsletter-flied form input[type="submit"] {width: 90px;}
+#footer .newsletter-flied span.error {display: inline-block; line-height: 20px;}
+#footer .social-media ul li {width: 100%; border-bottom: 1px solid #3e3e3e; border-left: none;}
+#footer .social-media ul li:last-child {border-bottom: none;}
+
+}

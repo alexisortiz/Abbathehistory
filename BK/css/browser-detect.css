@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+/* Sidebar Style End */
+/* all */
+
+.ff2 .box {
+}
+.ff3 .box {
+}
+.ie6 .box {
+}
+.ie7 .box {
+}
+.ie8 .box {
+}
+.opera9 .box {
+}
+.opera10 .box {
+}
+.safari2 .box {
+}
+.safari3 .box {
+}
+.safari4 .box {
+}
+/*****fire fox******/
+.ff2 .px-blog.large .slick-prev , .ff3 .px-blog.large .slick-prev , .ff4 .px-blog.large .slick-prev , .ff2 .px-blog.large .slick-next , .ff3 .px-blog.large .slick-next , .ff4 .px-blog.large .slick-next
+{
+padding: 30px 0px;
+}
+.ff2 .px-blog.large .slick-prev::after , .ff3 .px-blog.large .slick-prev::after   , .ff3 .px-blog.large .slick-prev::after  , .ff2 .px-blog.large .slick-next::after , .ff3 .px-blog.large .slick-next::after   , .ff3 .px-blog.large .slick-next::after 
+{
+	top: 0px;
+}
+.ff2 .px-error .content h2 , .ff4 .px-error .content h2 , .ff3 .px-error .content h2
+{
+  margin-bottom:20px;
+}
+
+/****chrome*********/
+
+.chrome .px-team .content .px-experience li .timeline-badge  {
+	  white-space: nowrap;
+}
+.chrome  button.slick-prev:focus , .chrome button.slick-next:focus {
+  border: 0;
+  outline: 0;
+}
+.chrome .px-form .fields-area input[type=text], .chrome .px-form .fields-area input[type=email], .chrome .px-form .fields-area textarea
+{
+   padding: 0 46px;
+   line-height: 24px;
+}
+
+/*******************************
+
+
+
+
+
+
+
+
+
+.unknown .box {
+}
+/* mac */
+
+.mac.safari3 {
+}
+.mac.safari4 {
+}
+.mac.opera9 {
+}
+.mac.ff2 {
+}
+.mac.ff3 {
+}
+/* platform */
+
+.trident {
+}
+.gecko {
+}
+.webkit {
+}
+.presto {
+}
+

@@ -1,0 +1,106 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ABBA THE HISTORY</title>
+<link href="css/cover.css" rel="stylesheet">
+	    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+	<script type="text/javascript" src='js/jquery.js'></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			
+			// when user clicks inside the container...
+			$('.curtain_wrapper').click(function(){
+				
+				//..animate the description div by changing it's left position to it's width (but as negative number)...
+				$(this).children('.description').animate({'left': -1*$(this).width()});
+				//...animate the 2 curtain images to width of 50px with duration of 2 seconds...
+				$(this).children('img.curtain').animate({ width: 300 },{duration: 2000});
+				//...show the content behind the curtains with fadeIn function (2 seconds)
+				$(this).children('.site-wrapper').fadeIn(2000);
+				
+			});
+			
+		});
+	</script>
+	<style type="text/css" media="screen">
+
+        * {margin: 0;}
+		img.curtain{
+            height: 100vh;
+			z-index:99;
+		}
+		
+		img.curtainLeft{
+			position:absolute;
+            width: 100%;
+            max-width: 600px;
+			left:0px;
+		}
+		
+		img.curtainRight{
+			position:absolute;
+            width: 100%;
+            max-width: 600px;
+			right:0px;
+		}
+		.curtain_wrapper{
+			width:100%; 
+			height:100vh;
+			position:relative;
+			overflow:hidden;
+			background:#3713B4;
+		}
+        
+@media (max-width:768px)
+{
+    		img.curtainLeft{
+			display: none;
+		}
+		
+		img.curtainRight{
+			display: none;
+		}
+        }
+	</style>
+</head>
+<body>
+	
+<!--START THE WRAPPER-->
+<div class='curtain_wrapper'>
+    
+	<!-- 2 CURTAIN IMAGES START HERE  -->
+	<img class='curtain curtainLeft' src='img/curtainLeft.png' />
+    <img class='curtain curtainRight' src='img/curtainRight.png' />
+    <!-- END IMAGES -->
+    
+    <!-- START THE CONTENT DIV -->    
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+        <div class="cover-container">
+            <div class="col 12" style="justify-content: center; display: flex;">
+          <main role="main" class="inner cover">
+            <img src="img/logo2.png" alt="" class="img-fluid">
+            <p class="lead" style="text-align: center;">
+              <a href="index_br.html" class="ui inverted olive basic button">PORTUGUÊS</a>
+              <a class="ui inverted olive basic button disabled">ENGLISH</a>
+              <a class="ui inverted olive basic button disabled">ESPAÑOL</a>
+            </p>
+          </main>
+        </div>
+        </div>
+
+      </div>
+
+    </div>
+
+</div>
+<!--END THE WRAPPER-->
+	
+</body>
+</html>

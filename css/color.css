@@ -1,0 +1,34 @@
+/* Text Color */
+.px-color, .px-portfolio article:hover h5 a, .px-portfolio.list article:hover .text h2 a, .breadcrumbs li.active, .px-event.list .icon-box span:after, .px-tabs.simple .nav-tabs li.active a, .px-services.simple figure i, #footer .widget-categories ul li:hover a, #footer .widget-categories ul li a:hover:before, #copyright p a,.px-default.simple .panel-title a span, .px-list .px-linked-list li:hover a i, .px-default.px-accordion-list .panel-heading a:before, .px-color , .px-team button.slick-next:hover:after , .px-team button.slick-prev:hover:after , .px-blog .px-posted span a:hover , .px-blog .px-posted ul li a:hover , .px-blog .read-more li a:hover span , .px-blog.comments ul.post-option li a:hover , .site-link li a:hover , .px-result.blog .description .posted li a , .px-price.px-benifit .description span , .px-error .content h2 , .px-construction  .text span , .px-construction .countdown-alt-2 .dd, .px-construction .countdown-alt-2 .hh-1, .px-construction .countdown-alt-2 .hh-2, .px-construction .countdown-alt-2 .mm-1, .px-construction .countdown-alt-2 .mm-2, .px-construction .countdown-alt-2 .ss-1, .px-construction .countdown-alt-2 .ss-2 , .socail_media li a:hover,
+.px-service.modern article figure i , .px-blog.tag li a:hover , .event-detail .px-blog.share  h6, /* widget */.widget.widget_cetegories li a:hover, .widget.widget_cetegories li:hover:after, .widget_pages li a:hover, .widget_pages li:hover:after, 
+.widget_meta li:hover:after, .widget_meta li a:hover, .widget_meta li:hover:after, .widget_nav_menu li a:hover, .widget_nav_menu li a:hover:after,
+.widget_archive li:hover:after, .widget_archive li a:hover
+{
+	color: #ffc600;
+}
+
+/* Background Color */
+.px-bgcolor, .px-main-filter li a:hover, .tracks-btn:hover, .listing-tabs li a.active, .px-portfolio.list .text h2:before, .px-pagination li a.active, .px-pagination li a:hover, .px-section-title h3:before, .px-player .text .tracks-btn, .ticket-btn:hover, .booked-btn:hover, .cancel-btn:hover, .px-spreater2 .divider span, .px-contact-info li i, .px-form.plain input[type="submit"], .newsletter-flied form input[type="submit"], .gallery-slider ul.px-slider button.slick-prev:hover, .gallery-slider ul.px-slider button.slick-next:hover, .call-actions.modren .call-btn a, .contect-btn, .px-bgcolor , .px-team .content  h2:before  , .px-experience .timeline-pane h4:after , .px-blog .px-posted span:after , .px-blog .read-more li a:hover.px-read , .px-blog h3:after , .form-submit input[type=submit] , .px-site .content h4:after , .suggestion .content h4:after , .suggestion .btn.btn-default , .px-result.relevent  .content h4:after , .px-result.blog .description .posted li:after , .contact-us .px-button , .px-price.px-queries .description,
+.gallery-slider ul.px-slider button.slick-prev:hover, .gallery-slider ul.px-slider button.slick-next:hover, .px-service.modern.top-center article:hover, .skillbar  .skillbar-bar , .event-detail .event-info .heading ul li a span,
+/* widget */.widget_search form label input[type="submit"], .widget_tag_cloud .px-tags ul li a:hover, .widget_calendar caption
+{
+	background-color: #ffc600;
+}
+
+/* Border Color */
+.px-border-color, .px-list .px-linked-list li:hover a i, .px-default.px-accordion-list .panel-heading a:before, .px-border-color , .px-team .content .text blockquote , .px-blog.large  .description , .px-blog.detail .description  .text blockquote , button.px-button:hover{
+	border-color: #ffc600;
+}
+
+.px-blog.large .slick-prev:hover:after
+{
+	border-left: #ffc600 solid 40px;
+}
+.px-blog.large .slick-next:hover:after
+{
+border-right: #ffc600 solid 40px;
+}
+/* widget */.widget.widget_cetegories li a:hover:before, .widget_pages li a:hover:before, .widget_meta li a:hover:before, .widget_meta li a:hover:before,
+.widget_nav_menu li a:hover:before, .widget_archive li a:hover:before{
+	border-left: 9px solid #ffc600;
+}
